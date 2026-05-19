@@ -1,0 +1,42 @@
+
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cards{
+width: 130px;
+height: 500px;
+border: 2px solid gray;
+border-radius: 8px;
+margin: 10px;
+height: 220px;
+text-align: center;
+}
+.cards>img {
+margin-top: 10px;
+width: 100px;
+height: 100px;
+border-radius: 10px;
+box-shadow: 6px 6px 10px gray; }
+h1{
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+}
+p{
+
+margin-top: 10px;
+}
+
+.btn{
+background-color: orange;
+border: none;
+border-radius: 4px;
+padding: 2px 10px 2px 10px;
+}
+.btn:hover{
+background-color:gray;
+cursor: pointer;
+transition: 0.5s;
+}
